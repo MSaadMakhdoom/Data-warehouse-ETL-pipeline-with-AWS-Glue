@@ -48,9 +48,9 @@ The Data warehouse schema is shown as follows
 * create custom transform script.
 
 ### AWS Glue ETL Pipeline
-+ Created tables to store the data from `AWS RDS mysql database`.
-+ Loading the data from `AWS RDS database` to `data warehouse`.
-+ Inserted data into dimension and fact tables .
++ Automate: Use AWS Glue to automate the ETL process, so that it can be run on a schedule
++ Loading the data from `AWS RDS database` to AWS data catlog database then transform into  `data warehouse`.
++ Data analytics: To perform data analysis 
 ![schema](./img/aws_glue.png)
 
 
