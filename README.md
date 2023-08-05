@@ -12,6 +12,8 @@ In this project, I build an ETL pipeline that extracts their data from **AWS RDS
 Datasets used in this project METRO shopping store. One Table contains TRANSACTIONS about sales, the second table Masterdata contain product and supplier record. 
 
 ### Database Schema
+The Database schema is shown as follows
+![schema](./img/database.PNG)
 Two tables 
 #### Staging Table 
 + **TRANSACTIONS** - 10,000 records.
@@ -31,8 +33,8 @@ I createa a star schema optimized for queries on sale data analysis. This includ
 + **supplier** - supplier of records
 
 
-The database schema is shown as follows
-![schema](./images/schema.PNG)
+The Data warehouse schema is shown as follows
+![schema](./img/star_schema.PNG)
 
 ### Data Warehouse Configurations and Setup
 * Create a new `IAM user` in your AWS account
@@ -45,11 +47,11 @@ The database schema is shown as follows
 * Design ETL pipeline 
 * create custom transform script.
 
-### ETL Pipeline
+### AWS Glue ETL Pipeline
 + Created tables to store the data from `AWS RDS mysql database`.
 + Loading the data from `AWS RDS database` to `data warehouse`.
 + Inserted data into dimension and fact tables .
-
+![schema](./img/aws_glue.PNG)
 
 
 
