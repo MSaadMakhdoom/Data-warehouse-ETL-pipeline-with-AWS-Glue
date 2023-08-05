@@ -34,7 +34,7 @@ I createa a star schema optimized for queries on sale data analysis. This includ
 
 
 The Data warehouse schema is shown as follows
-![schema](./img/star_schema.png)
+![schema](./img/start_schema.png)
 
 ### Data Warehouse Configurations and Setup
 * Create a new `IAM user` in your AWS account
